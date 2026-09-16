@@ -4,6 +4,8 @@
 
 Considerando que uma indústria possui as pessoas/funcionários abaixo:
 
+<img width="770" height="404" alt="custom-test-102943-question-eee278f5-a195-4265-956e-dcfcef31bafb" src="https://github.com/user-attachments/assets/f0c9643e-20e7-4223-a5da-5f1ce26da721" />
+
 Diante disso, você deve desenvolver um projeto Java com os seguintes requisitos:
 
 ### 1. Classe Pessoa
@@ -91,3 +93,29 @@ Imprimir quantos salários mínimos ganha cada funcionário, considerando que o 
 ## Orientações Gerais
 
 * Você poderá utilizar a ferramenta que tem maior domínio, como Eclipse, NetBeans etc.
+
+---
+
+## Como executar o código
+
+Para executar o projeto, abra o **terminal** na raiz do projeto.
+
+Certifique-se de que o **Java JDK 8 ou superior** esteja instalado:
+
+```bash
+java -version
+```
+
+No terminal, execute o comando abaixo para compilar todas as classes:
+
+```bash
+javac -d bin src/entities/*.java src/application/*.java
+```
+
+Após a compilação, execute a aplicação pelo terminal:
+
+```bash
+java -cp bin application.Principal
+```
+
+O resultado das operações será exibido no terminal.
